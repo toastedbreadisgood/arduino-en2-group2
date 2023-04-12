@@ -104,7 +104,7 @@ Notes chart:
 #define REST 0
 
 int tempo = 80;
-int buzzer = 11;
+int buzzer = 13;
 
 int melody[] = {
   //type notes below
@@ -115,6 +115,7 @@ int melody[] = {
   NOTE_FS5, -4, NOTE_B4, 8, NOTE_D5, 8, NOTE_B4, 8, NOTE_G4, 8, NOTE_D5, 8, 
   NOTE_B4, 2, REST, 8, NOTE_E5, 8, NOTE_D5, 8, NOTE_CS5, 8, 
   NOTE_FS5, 2, NOTE_B4, 8, NOTE_CS5, 8, NOTE_D5, 8, NOTE_E5, 8,
+  NOTE_FS5, -4, NOTE_D5, 8, NOTE_FS5, -4, NOTE_D5, 8, 
   //line 1 is NOT done
 
   //lines2-3 (wesley)

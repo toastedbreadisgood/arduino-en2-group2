@@ -116,7 +116,7 @@ int melody[] = {
   NOTE_B4, 2, REST, 8, NOTE_E5, 8, NOTE_D5, 8, NOTE_CS5, 8, 
   NOTE_FS5, 2, NOTE_B4, 8, NOTE_CS5, 8, NOTE_D5, 8, NOTE_E5, 8,
   NOTE_FS5, -4, NOTE_D5, 8, NOTE_FS5, -4, NOTE_D5, 8, 
-  //line 1 is NOT done
+  NOTE_FS5, -4, NOTE_B4, 8, NOTE_D5, 8, NOTE_B4, 8, NOTE_G4, 8, NOTE_D5, 8,
 
   //lines2-3 (wesley)
   NOTE_B4, -2, NOTE_B4, 4, 

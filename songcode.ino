@@ -139,7 +139,19 @@ int melody[] = {
 
   //lines 6-7 (abhi)
   // Abhi starting code
-    NOTE_C5, 8, NOTE_G5, 8, NOTE_CS5, 8, NOTE_B5, 4, NOTE_B5, 8
+    NOTE_C5, 8, NOTE_G5, 8, NOTE_CS5, 8, NOTE_B5, 4, NOTE_B5, 8, 
+    NOTE_AS5, 8, NOTE_F5, 8, NOTE_AS5, 8, NOTE_B5, 4, NOTE_B5, 8,  
+    NOTE_C5, 8, NOTE_G5, 8, NOTE_CS5, 8, NOTE_CS5, 8, NOTE_G5, 8, NOTE_CS5, 8, 
+    NOTE_G5, -4, NOTE_FS5, 4, NOTE_FS5, 8, 
+    NOTE_CS5, 8, NOTE_G5, 8, NOTE_CS5, 8, NOTE_CS5,8, NOTE_G5, 8, NOTE_CS5, 8, 
+    NOTE_G5, -4, NOTE_FS5, 4, NOTE_FS5, 8, 
+    NOTE_C5, 8, NOTE_G5, 8, NOTE_CS5, 8, NOTE_CS5, 8, NOTE_G5, 8, NOTE_CS5, 8, 
+    NOTE_CS5, -4, NOTE_CS5, 4, NOTE_CS5, 8, 
+    NOTE_D5, 8, NOTE_AS5, -8, NOTE_D5, 8, NOTE_D5, 8, NOTE_AS5, 8, NOTE_D5, 8,  
+    NOTE_D5, -4, NOTE_D5, 4, NOTE_CS5, 8, 
+    NOTE_D5, 4, NOTE_CS5, 8, NOTE_D5, 4, NOTE_CS5, 8, 
+    NOTE_FS5, 8, NOTE_E5, 8, NOTE_CS5, 8, NOTE_AS5, 8, NOTE_FS5, 8, NOTE_E5, 8, NOTE_CS5, 8, NOTE_AS4, 8 
+
   //lines 8-9 (jose)
 
 };
@@ -164,7 +176,7 @@ void setup() {
       noteDuration = (wholenote) / divider;
     } else if (divider < 0) {
       // dotted notes are represented with negative durations!!
-      noteDuration = (wholenote) / abs(divider);
+      noteDuration = (wholenote) / (divider);
       noteDuration *= 1.5; // increases the duration in half for dotted notes
     }
 

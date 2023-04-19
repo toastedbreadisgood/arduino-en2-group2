@@ -139,7 +139,7 @@ int melody[] = {
 
   //lines 6-7 (abhi)
   // Abhi starting code
-  Note_
+    NOTE_C5, 8, NOTE_G5, 8, NOTE_CS5, 8, NOTE_B5, 4, NOTE_B5, 8
   //lines 8-9 (jose)
 
 };

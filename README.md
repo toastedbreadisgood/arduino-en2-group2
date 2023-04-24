@@ -17,7 +17,7 @@ Open New Terminal in vscode and run the following commands one by one
 
 It should show your origin as the github project url
 
-git config --global --list
+`git config --global --list`
 If it doesn't show these two fields below- 
 user.name=<your-user-name>
 user.name=<your-user-email>

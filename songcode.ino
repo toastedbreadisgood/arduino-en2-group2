@@ -183,7 +183,7 @@ void setup() {
 
       noteDuration = (wholenote) / divider;
     } else if (divider < 0) {
-      noteDuration = (wholenote) / (divider);
+      noteDuration = (wholenote) / abs(divider);
       noteDuration *= 1.5; 
     }
 

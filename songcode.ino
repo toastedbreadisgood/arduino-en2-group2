@@ -163,7 +163,7 @@ int melody[] = {
     NOTE_D5, 8, NOTE_AS5, -8, NOTE_D5, 8, NOTE_D5, 8, NOTE_AS5, 8, NOTE_D5, 8,  
     NOTE_D5, -4, NOTE_D5, 4, NOTE_CS5, 8, 
     NOTE_D5, 4, NOTE_CS5, 8, NOTE_D5, 4, NOTE_CS5, 8, 
-    NOTE_FS5, 8, NOTE_E5, 8, NOTE_CS5, 8, NOTE_AS5, 8, NOTE_FS5, 8, NOTE_E5, 8, NOTE_CS5, 8, NOTE_AS4, 8 
+    NOTE_FS5, 8, NOTE_E5, 8, NOTE_CS5, 8, NOTE_AS5, 8, NOTE_FS5, 8, NOTE_E5, 8, NOTE_CS5, 8, NOTE_AS4, 8, 
 
   //lines 8-9 (jose)
   //silly little starting code by jose
